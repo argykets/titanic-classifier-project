@@ -1,0 +1,5 @@
+fastapi==0.102.0
+uvicorn
+loguru
+pydantic-settings==2.1.0
+git+https://github.com/argykets/titanic-classification-packaging

@@ -1,0 +1,22 @@
+name: train
+run_id: commands[0]
+env HOME: /Users/argyresketsetses
+env TMPDIR: /var/folders/cv/j0t3w1hn3zqcllq375c3r5180000gn/T/
+env LANG: en_US.UTF-8
+env TERM: xterm-256color
+env PATH: /Users/argyresketsetses/Projects/titanicClassifier/.tox/test_package/bin:/opt/homebrew/opt/openssl@3/bin:/opt/miniconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env PYTHONHASHSEED: 0
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: /Users/argyresketsetses/Projects/titanicClassifier/.tox
+env TOX_ENV_DIR: /Users/argyresketsetses/Projects/titanicClassifier/.tox/test_package
+env VIRTUAL_ENV: /Users/argyresketsetses/Projects/titanicClassifier/.tox/test_package
+env COLUMNS: 215
+env LINES: 15
+metadata pid: 40928
+cwd: /Users/argyresketsetses/Projects/titanicClassifier
+allow: /Users/argyresketsetses/Projects/titanicClassifier/.tox/test_package/bin/*:train
+cmd: python classification_model/train_pipeline.py
+exit_code: 0

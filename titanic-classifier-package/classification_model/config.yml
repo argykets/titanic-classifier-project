@@ -1,0 +1,56 @@
+package_name: classification_model
+
+dataset: titanic_data.csv
+
+test_size: 0.2
+
+pipeline_name: titanic_pipe
+pipeline_save_file: classification_model_output_v
+
+features_to_drop:
+  - name
+  - ticket
+  - boat
+  - body
+  - home_dest
+
+features_to_convert_to_float:
+  - fare
+  - age
+
+numerical_variables:
+  - age
+  - fare
+
+categorical_variables:
+  - sex
+  - cabin
+  - embarked
+  - title
+
+features:
+  - pclass
+  - sex
+  - age
+  - sibsp
+  - parch
+  - fare
+  - cabin
+  - embarked
+  - title
+
+target: survived
+
+cabin:
+  - cabin
+
+name:
+  - name
+
+random_state: 42
+
+C: 0.0005
+
+tol: 0.05
+
+n_categories: 1
